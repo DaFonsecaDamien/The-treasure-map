@@ -55,5 +55,5 @@ function main(filepath: string, outputFilePath: string, responseType: ResponseTy
 
 const inputFilePath = 'src/files/valid-file';
 const outputFilePath = 'src/files/output-file';
-const responseType = ResponseType.Board; // Change this to ResponseType.Normal or ResponseType.Board as desired
+const responseType = ResponseType.Normal; // Change this to ResponseType.Normal or ResponseType.Board as desired
 main(inputFilePath, outputFilePath, responseType);
